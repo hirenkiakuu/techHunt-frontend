@@ -1,0 +1,101 @@
+.about-us {
+    &__container {
+        background-image: url('../img/about/Circle img.svg');
+        background-repeat:no-repeat ;
+        background-position: 50% 50%;
+        max-width: 1360px;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin-bottom: 20px;
+        padding: 0 20px;
+
+        height: 468px;
+    }
+    &__decor {
+        display: flex;
+        gap: 40px;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    &__pretitle {
+        color: $main_text;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 114.972%; /* 27.593px */
+        letter-spacing: -1.44px;
+    }
+    &__text {
+        color: $main_text;
+        font-family: Inter;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114.972%; /* 35.641px */
+        letter-spacing: -2.325px;
+
+        max-width: 350px;
+    }
+    &__date {
+        margin-top: auto;
+        color: $main_text;
+        font-family: Bodoni Moda;
+        font-size: 64px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 114.972%; /* 73.582px */
+        letter-spacing: -3.84px;
+    }
+    &__credits {
+        display: flex;
+        flex-direction: column;
+        background-color: $cards_popups;
+        justify-content: space-around;
+        margin: 0 auto;
+
+        max-width: 700px;
+        width: 100%;
+    }
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: VT323;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60%; /* 38.4px */
+        letter-spacing: -1.92px;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 768px){
+    .about-us {
+        &__container {
+            background-image: none;
+            background-position: 50% 50%;
+            max-width: 1360px;
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            margin-bottom: 20px;
+            padding: 0 20px;
+    
+        }
+        &__decor {
+            display: none;
+            gap: 40px;
+        }
+        &__column {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+
+        }
+        &__title{
+            font-size: 60px;
+        }
+    }
+}

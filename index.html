@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TechHunt</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__links">
+                    <a href="login.html" class="hero__link">Войти</a>
+                    <a href="#about" class="hero__link">О нас</a>
+                </div>
+                <div class="hero__content">
+                    <div class="hero__header">
+                        <h1 class="hero__title">
+                            TechHunt
+                        </h1>
+                        <a href="./add-event.html" class="hero__button button" >
+                            Запустить ивент
+                        </a>
+                    </div>
+
+                    <div class="hero__cards">
+                        <img class ="hero__image" src="img/hero/image 5480.png" style="rotate: 90deg;" alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5471.png" style="rotate: 45deg;"alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5479.png" alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5481.png" style="rotate: -45deg;"alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5472.png" style="rotate: -90deg;"alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5469.png" style="rotate: 225deg;"alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5474.png" style="rotate: 180deg;"alt="">
+        
+                        <img class ="hero__image" src="img/hero/image 5468.png" style="rotate: 135deg;"alt="">
+                    </div>
+                </div>
+                <div class="hero__links hero__links-right">
+                    <a href="registration.html" class="hero__link">Регистрация</a>
+                    <a href="#ivents" class="hero__link" >События</a>
+                </div>
+            </div>
+        </section>
+        <main class="ivents" id = "ivents">
+            <!-- <a href="#" class="button filters_button" id = "open-filters">Filters</a> -->
+            <div class="container cards__container">
+                <ul class="ivents__cards cards">
+
+                </ul>
+
+            
+            </div>
+
+        </main>
+      
+        <footer class="footer">
+            <section class="about-us" id="about">
+                <div class="about-us__container container">
+                    <div class="about-us__decor">
+                        <div class="about-us__column">
+                            <span class = "about-us__pretitle">О нас</span>
+                            <p class="about-us__text">
+                                Мы предоставляем  платформу для поиска и отслеживания самых актуальных мероприятий в области информационных технологий
+                            </p>
+                            <span class="about-us__date">
+                                20
+                            </span>
+                        </div>
+                        <div class="about-us__column">
+                            <span class = "about-us__pretitle"> Контакты </span>
+                            <p class="about-us__text">
+                                Связь с нами
+                            </p>
+                            <span class="about-us__date">
+                                23
+                            </span>
+                        </div>
+                    </div>
+                    <div class="about-us__credits">
+                        <h2 class="about-us__title">
+                            email
+                        </h2>
+                        <h2 class="about-us__title">
+                            glacies.flamma@gmail.com
+                        </h2>
+                        <h2 class="about-us__title">
+                            contact<br>
+                            +7(919)230-93-11
+                        </h2>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+    </div>
+    <div class="open__card hidden">
+        <div class="open-card__container container">
+            <div class="open-card__left-column">
+                <h1 class="open-card__title">
+                    Я беббра хвзахвзахзва
+                </h1>
+                <img width="340px" height="464px" src="img/hero/image 5468.png" alt="#" class="open-card__image">
+                <button class="button-confirm" id = "button__participate">
+                    Пойду
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="30" viewBox="0 0 55 30" fill="none">
+                        <path d="M53.6929 16.3708C54.474 15.5897 54.474 14.3234 53.6929 13.5423L40.965 0.814407C40.1839 0.0333586 38.9176 0.0333586 38.1366 0.814407C37.3555 1.59546 37.3555 2.86179 38.1366 3.64283L49.4503 14.9565L38.1366 26.2703C37.3555 27.0513 37.3555 28.3176 38.1366 29.0987C38.9176 29.8797 40.1839 29.8797 40.965 29.0987L53.6929 16.3708ZM0.256836 16.9565L52.2787 16.9565V12.9565L0.256836 12.9565L0.256836 16.9565Z" fill="white"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="open-card__right-column">
+                <a href="#" class="open-card__close-modal close-modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                        <circle cx="30" cy="30" r="30" fill="#EBEAE5"/>
+                        <line x1="46.0607" y1="15.0607" x2="17.7764" y2="43.3449" stroke="#E58CC5" stroke-width="3"/>
+                        <line x1="44.2235" y1="43.3448" x2="15.9392" y2="15.0606" stroke="#E58CC5" stroke-width="3"/>
+                      </svg>
+                </a>
+
+                <ul class="open-card__info">
+                    <li class="open-card__item">
+                        <h2 class="open-card__elem-title">
+                            Описание
+                        </h2>
+                        <p class="open-card__text open-card-description">Мы ожидаем полезные экскурсии на предприятия и общение с экспертами ведущих компаний в отрасли.</p>
+                    </li>
+                    <li class="open-card__item">
+                        <h2 class="open-card__elem-title">
+                            Платформа проведения
+                        </h2>
+                        <p class="open-card__text open-card-place">Очная форма проведения</p>
+                    </li>
+                    <li class="open-card__item">
+                        <h2 class="open-card__elem-title">
+                            Адрес
+                        </h2>
+                        <p class="open-card__text open-card-adres">Екатеринбург, улица Мира, 19</p>
+                    </li>
+                    <li class="open-card__item">
+                        <h2 class="open-card__elem-title">
+                            Организатор
+                        </h2>
+                        <p class="open-card__text  open-card-org">Агентство технологического развития</p>
+                    </li>
+                    <li class="open-card__item">
+                        <h2 class="open-card__elem-title ">
+                            Теги
+                        </h2>
+                        <ul class="open-card__text tags open-card-tags">
+                            
+                        </ul>
+                    </li>
+                </ul>
+                <div class="open-card__footer">
+                    Дата проведения:
+                    <p class = "date open-card-date">
+                        <span class = "date__day-start date__day" >
+        
+                        </span>
+                        <span class = date__dash>-</span>
+        
+                        <span class = "date__day-end date__day">
+        
+                        </span>
+                        <span class = "date__month">
+        
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "js/main.js" type="module"></script>
+
+</body>
+
+
+
+<template id="filter">
+    <aside class="filter">
+        <header class ="filter__header">
+            <h3 class="filter__title">
+                Filter
+            </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <rect x="0.22168" y="14.1422" width="20" height="2" transform="rotate(-45 0.22168 14.1422)" fill="white"/>
+                <rect x="1.41406" width="20" height="2" transform="rotate(45 1.41406 0)" fill="white"/>
+              </svg>
+        </header>
+        <form class="filter-evt" name="events" id="events">
+            <button class = filter__evt-open>
+                <span>Sort by events</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none">
+                    <path d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z" fill="white"/>
+                  </svg>
+            </button>
+            <ul class="filter__events">
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Championship">
+                    <label for="scales">Championship</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+                <li class="filter__ivent">
+                    <input type="checkbox" id = "Competition">
+                    <label for = "Competition">Competition</label>
+                </li>
+            </ul>
+        </form>
+        <form class= "filter-date" name = "date" id = "date">
+            <button class = filter__date-open>                
+                <span>Sort by days</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none">
+                    <path d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7V8H9V7H7Z" fill="white"/>
+                  </svg>
+            </button>
+            <ul class="filter__dates">
+                <input type="date">
+            </ul>
+        </form>
+    </aside>
+</template>
+
+<template id = "card__template">
+    <div class = card>
+        <a class="card__main">
+            <div class="card__left">
+                <h2 class="card__title">
+
+                </h2>
+                <span class="card__number">
+
+                </span>
+            </div>
+
+            <img src="" alt="#" class="card__image">
+        </a>
+
+        <div class="card__aside">
+            <span class="card__type">
+
+            </span>
+            <p class="card__description">
+            </p>
+            <ul class="card__tags tags">
+
+            </ul>
+            <p class = "date">
+                <span class = "date__day-start date__day" >
+
+                </span>
+                <span class = date__dash>-</span>
+
+                <span class = "date__day-end date__day">
+
+                </span>
+                <span class = "date__month">
+
+                </span>
+            </p>
+        </div>
+    </div>
+</template>
+
+<template id = "tags__template">
+    <li class="tags__tag">
+        <a href="#" class="tags__link"></a>
+    </li>
+</template>
+
+<template id = "open-card__template">
+    <div class="open-card__container container">
+        <div class="open-card__left-column">
+            <h1 class="opent-card__title">
+                Я беб
+            </h1>
+            <img src="img/hero/image 5468.png" alt="#" class="open-card__image">
+        </div>
+        <div class="open-card__right-column">
+            <ul class="open-card__info">
+                <li class="open-card__item">
+                    <h2 class="open-card__title">
+                        Описание
+                    </h2>
+                    <p class="open-card__text"></p>
+                </li>
+                <li class="open-card__item">
+                    <h2 class="open-card__title">
+                        Платформа проведения
+                    </h2>
+                    <p class="open-card__text"></p>
+                </li>
+                <li class="open-card__item">
+                    <h2 class="open-card__title">
+                        Адрес
+                    </h2>
+                    <p class="open-card__text"></p>
+                </li>
+                <li class="open-card__item">
+                    <h2 class="open-card__title">
+                        Организатор
+                    </h2>
+                    <p class="open-card__text"></p>
+                </li>
+                <li class="open-card__item">
+                    <h2 class="open-card__title">
+                        Теги
+                    </h2>
+                    <ul class="tags">
+                        
+                    </ul>
+                </li>
+            </ul>
+            <div class="open-card__footer">
+                <p class = "date open-card-date">
+                    <span class = "date__day-start date__day" >
+    
+                    </span>
+                    <span class = date__dash>-</span>
+    
+                    <span class = "date__day-end date__day">
+    
+                    </span>
+                    <span class = "date__month">
+    
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</template>
+
+
+</html>

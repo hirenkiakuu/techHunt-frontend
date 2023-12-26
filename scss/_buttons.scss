@@ -1,0 +1,38 @@
+.button {
+    max-width: 277px;
+    border-radius: 16px;
+    color: $cards_popups;
+    border: 3px solid $cards_popups;
+    padding: 15px 30px;
+
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 114.972%; /* 35.641px */
+    text-decoration: none;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+
+.button-confirm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 16px;
+
+    padding: 20px;
+    color: $secondary_text;
+    background-color:rgba(255, 255, 255, 0.50);
+
+    border-radius: 20px;
+    width: 340px;
+    border: none;
+
+    font-size: 31px;
+
+    font-weight: 700;
+    line-height: 114.972%; /* 35.641px */
+    letter-spacing: -1.86px;
+}
